@@ -1,6 +1,6 @@
 import mysql.connector 
 
-mydb = mysql.connector.connect(host="localhost", user="root", password="Oracle1234niru$", database="hms")
+mydb = mysql.connector.connect(host="localhost", user="root", password="", database="hms")
 c = mydb.cursor()
 
 def viewTables(tableName):
